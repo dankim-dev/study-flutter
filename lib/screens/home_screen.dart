@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
   void onStartPressed() {
     timer = Timer.periodic(
       const Duration(
-        seconds: 1,
+        seconds: 2,
       ), //1초 duration마다 onTick 함수 실행
       onTick,
     );
